@@ -13,7 +13,7 @@ function rand({ min = 0, max = 1000 }) {
  * arredondando para baixo. Se fosse Math.ceil seria para cima
  */
 
-//criando um objeto que serve como parametro para a funcao
+//criando um objeto que serve como parametro para a funcao teste
 const obj = { max: 50, min: 40 }
 console.log(rand(obj)) //gerando aleatórios entre 50 e 40
 console.log(rand({min: 955})) //passando o valor minimo
